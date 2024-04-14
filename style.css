@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFEAD0;
+    box-sizing: border-box;
+}
+
+.he1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-family: "sans-serif";
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+
+form input {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: "sans-serif";
+
+}
+
+
+/*.generateQR {*/
+/*    background-color: #F76F8E;*/
+/*    border-radius: 8px;*/
+/*    border-style: none;*/
+/*    box-sizing: border-box;*/
+/*    color: #FFFFFF;*/
+/*    cursor: pointer;*/
+/*    display: inline-block;*/
+/*    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/*    font-size: 18px;*/
+/*    font-weight: 500;*/
+/*    width: 400px;*/
+/*    height: 55px;*/
+/*    line-height: 20px;*/
+/*    list-style: none;*/
+/*    margin: 0;*/
+/*    outline: none;*/
+/*    padding: 20px 26px;*/
+/*    position: relative;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    transition: color 100ms;*/
+/*    vertical-align: baseline;*/
+/*    user-select: none;*/
+/*    -webkit-user-select: none;*/
+/*    touch-action: manipulation;*/
+/*}*/
+
+
+.button {
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 20px 26px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:after {
+    background-color: #111;
+    border-radius: 7px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(7px, 7px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button:hover:after {
+    transform: translate(0, 0);
+}
+
+.button:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 0 40px;
+    }
+}
+
+.img-div {
+    margin-top: 30px;
+}
